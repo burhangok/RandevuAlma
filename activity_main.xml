@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="96dp">
+
+        <Button
+            android:id="@+id/kaydet"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/goruntule"
+            android:layout_marginTop="167dp"
+            android:text="RANDEVU KAYDET" />
+
+        <Button
+            android:id="@+id/goruntule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="194dp"
+            android:layout_marginStart="77dp"
+            android:text="RANDEVULARI GÖRÜNTÜLE" />
+
+        <Button
+            android:id="@+id/kurumsal"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="102dp"
+            android:layout_marginStart="77dp"
+            android:text="KURUMSAL" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
