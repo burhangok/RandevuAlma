@@ -1,0 +1,2 @@
+# RandevuAlma
+RandevuAlma Shared Preferences
